@@ -18,8 +18,7 @@ A simple Windows program to run **Monero's monerod daemon** anonymously through 
 - Password-protected web dashboard  
 - Displays:
   - Blockchain height  
-  - Synchronization status  
-  - Mining status & hash rate  
+  - Synchronization status
   - Network connections  
   - Onion address  
 - Real-time log viewer (Tor & Monerod)  
