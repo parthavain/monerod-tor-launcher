@@ -11,10 +11,13 @@ A simple Windows program to run **Monero's monerod daemon** anonymously through 
    - Start the **Tor service**  
    - Launch **Monerod** with Tor proxy integration  
    - Open a local web dashboard → `http://127.0.0.1:8080`  
-   - Generate a **.onion address** for anonymous access through Tor  
+   - Generate a **.onion address** for anonymous access through Tor
+   - 
+
+<img width="1920" height="976" alt="3" src="https://github.com/user-attachments/assets/0b067f30-f970-4f62-a9c8-72221240ce83" />
 <img width="1114" height="642" alt="1" src="https://github.com/user-attachments/assets/922731f2-869c-4103-a88c-03a8b7e0b1b1" />
 <img width="1920" height="982" alt="2" src="https://github.com/user-attachments/assets/b1a774c7-c4a8-484a-aa2d-a57164cfc2fc" />
-<img width="1920" height="976" alt="3" src="https://github.com/user-attachments/assets/0b067f30-f970-4f62-a9c8-72221240ce83" />
+
 ## ✨ Features
 - Run Monerod anonymously via Tor  
 - Password-protected web dashboard  
