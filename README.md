@@ -26,5 +26,4 @@ A simple Windows program to run **Monero's monerod daemon** anonymously through 
 
 ## ⚠️ Note
 - This software is **experimental**.  
-- Intended for educational and personal use.  
-- Do not rely on it with significant funds on mainnet unless you fully understand the risks.  
+
