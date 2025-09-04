@@ -2,31 +2,29 @@
 
 A simple Windows program to run **Monero's monerod daemon** anonymously through the **Tor network**, with a password-protected web dashboard.
 
-## 🚀 Usage (Windows)
-1. Download the compiled `.exe` file from Releases.
-2. Place the file in the same folder as:
-   - `monerod.exe`
-   - `tor.exe`
-3. Run the launcher `.exe`
-4. On first start, set a **master password** (used to protect web access).
-5. The program will:
-   - Start **Tor**
-   - Start **Monerod** with Tor proxy integration
-   - Launch a **local web dashboard** at:  
-     👉 `http://127.0.0.1:8080`  
-   - Provide a **.onion address** for anonymous access.
+## 🚀 How to Use (Windows)
+1. Copy this launcher program into the same folder where your **`monerod.exe`** is located.  
+2. Make sure **`tor.exe`** is in the same folder (it will be provided with the package).  
+3. Run the launcher `.exe`.  
+4. On the first start, you will be asked to set a **master password** (used to access the web dashboard).  
+5. The program will then:
+   - Start the **Tor service**  
+   - Launch **Monerod** with Tor proxy integration  
+   - Open a local web dashboard → `http://127.0.0.1:8080`  
+   - Generate a **.onion address** for anonymous access through Tor  
 
 ## ✨ Features
-- Runs monerod anonymously via Tor
-- Web interface with password protection
-- Shows:
+- Run Monerod anonymously via Tor  
+- Password-protected web dashboard  
+- Displays:
   - Blockchain height  
-  - Sync status  
-  - Peer connections  
+  - Synchronization status  
+  - Mining status & hash rate  
+  - Network connections  
   - Onion address  
-- Real-time Tor & Monerod log viewer
+- Real-time log viewer (Tor & Monerod)  
 
 ## ⚠️ Note
-- This program is experimental.  
-- Use only for **educational or personal purposes**.  
-
+- This software is **experimental**.  
+- Intended for educational and personal use.  
+- Do not rely on it with significant funds on mainnet unless you fully understand the risks.  
